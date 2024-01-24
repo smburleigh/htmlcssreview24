@@ -21,7 +21,7 @@ html{
       box-shadow: 5px 3px 10px rgb(46, 46, 46);
   
   }
-  #pgcontainer{
+   #pgcontainer{
       width: 80%;
       text-align: center;
       margin: auto;
@@ -57,7 +57,7 @@ html{
   .even{
     background-color: #e8e8e8;
     font-family: 'Lexend', sans-serif;
-      color: rgb(13, 133, 97);
+      color: rgb(98, 12, 92);
       font-size: 17px;
       text-align: center;
       box-shadow: 5px 3px 10px rgb(46, 46, 46);
@@ -93,7 +93,7 @@ html{
   h2, h3, h4, h5{
       font-family: 'Lobster', sans-serif;
       font-size: 26px;
-      color: rgb(10, 104, 76);
+      color: rgb(84, 19, 70);
   
   }
   
@@ -152,14 +152,14 @@ html{
       padding: 8px 8px 8px 32px;
       text-decoration: none;
       font-size: 25px;
-      color: rgb(4, 175, 118);
+      color: var(--clr-rosy);
       display: block;
       transition: 0.3s;
     }
     
   
     .sidenav a:hover {
-      color: #a7a3a3;
+      color: #da68a7;
     }
     
     .sidenav .closebtn {
@@ -247,7 +247,7 @@ html{
     background-color:rgb(186, 255, 234);
     padding: 20px;
     font-family: cursive;
-    color:rgb(6, 112, 66);
+    color:rgb(209, 26, 234);
   }
     
     
@@ -268,6 +268,8 @@ html{
   p{
     font-family: "Lexend", sans-serif;
     font-size: 20px;
+    color: var(--clr-rosy);
+    font-weight: bold;
   }
   
   
@@ -319,7 +321,7 @@ html{
   
   form h2 {
     margin-bottom: 20px;
-    color:rgb(6, 141, 101);
+    color:var(--clr-rosy);
   }
   
   input[type="text"],
@@ -340,7 +342,7 @@ html{
   }
   
   button {
-    background-color: #5d9bdd;
+    background-color: #c81176;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -352,48 +354,8 @@ html{
   }
   
   button:hover {
-    background-color: #0e834c;
-    color: rgb(6, 59, 43);
+    background-color: #9f1061;
+    color: rgb(255, 255, 255);
   }
   
   
-  .styled-table {
-    border-collapse: collapse;
-    margin: 25px 65px 0;
-    font-size: 0.9em;
-    font-family: sans-serif;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-   
-  }
-  
-  .styled-table thead tr {
-    background-color: #009879;
-    color: #ffffff;
-    text-align: left;
-    
-  }
-  
-  .styled-table th,
-  .styled-table td {
-      padding: 12px 15px;
-  }
-  
-  
-  .styled-table tbody tr {
-    border-bottom: 1px solid #dddddd;
-  }
-  
-  .styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-    
-  }
-  
-  .styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
-  }
-  
-  .styled-table tbody tr.active-row {
-    font-weight: bold;
-    color: #009879;
-  }
